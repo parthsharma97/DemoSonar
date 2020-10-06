@@ -1,3 +1,4 @@
+<!--SonarCloud properties-->
 <properties>
   <sonar.projectKey>parthsharma97_DemoSonar</sonar.projectKey>
   <sonar.organization>parthsharma97</sonar.organization>
