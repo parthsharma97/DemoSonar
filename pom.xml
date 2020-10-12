@@ -7,6 +7,20 @@
   <version>2.5-SNAPSHOT</version>
   <name>Hello World</name>
   <url>http://maven.apache.org</url>
+  
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>a0ttkywgye99p-artifactory-primary-0-releases</name>
+        <url>https://droneci.jfrog.io/artifactory/maven-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0ttkywgye99p-artifactory-primary-0-snapshots</name>
+        <url>https://droneci.jfrog.io/artifactory/maven-local</url>
+    </snapshotRepository>
+</distributionManagement>
+  
   <dependencies>
     <dependency>
       <groupId>org.apache.maven</groupId>
