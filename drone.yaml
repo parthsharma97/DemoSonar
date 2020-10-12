@@ -15,7 +15,7 @@ steps:
   username: parthsharma1310@gmail.com
   password: P@rth123$
   command:
-  - mvn deploy -Dmaven.javadoc.skip=true -Dmaven.source.skip=true
+  - mvn clean deploy -Dmaven.javadoc.skip=true -Dmaven.source.skip=true
  
 - name: code-analysis
   image: aosapps/drone-sonar-plugin
