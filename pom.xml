@@ -8,18 +8,18 @@
   <name>Hello World</name>
   <url>http://maven.apache.org</url>
   
-  <distributionManagement>
+<distributionManagement>
     <repository>
         <id>central</id>
         <name>a0ttkywgye99p-artifactory-primary-0-releases</name>
-        <url>https://droneci.jfrog.io/artifactory/maven-local</url>
+        <url>https://droneci.jfrog.io/artifactory/drone-maven-local</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>a0ttkywgye99p-artifactory-primary-0-snapshots</name>
-        <url>https://droneci.jfrog.io/artifactory/maven-local</url>
+        <url>https://droneci.jfrog.io/artifactory/drone-maven-local</url>
     </snapshotRepository>
-  </distributionManagement>
+</distributionManagement>
   
   <dependencies>
     <dependency>
