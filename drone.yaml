@@ -31,7 +31,7 @@ steps:
 pipeline:
   artifactory:
     image: athieriot/drone-artifactory
-    url: https://droneci.jfrog.io/
+    url: https://droneci.jfrog.io
     username: parthsharma1310@gmail.com
     password: P@rth123$
     pom: pom.xml
