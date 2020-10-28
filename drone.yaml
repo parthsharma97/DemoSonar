@@ -28,5 +28,16 @@ steps:
     sonar_token:
       from_secret: sonar_token
 
+pipeline:
+  artifactory:
+    image: athieriot/drone-artifactory
+    url: https://droneci.jfrog.io/
+    username: parthsharma1310@gmail.com
+    password: P@rth123$
+    pom: pom.xml
+    files:
+      - target/*.jar
+      - target/*.war
+    
 image_pull_secrets:
 - dockerconfigjson
